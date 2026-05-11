@@ -22,4 +22,9 @@ public class MatesTest {
         int resultado = contas.restar(10, 4);
         assertEquals(6, resultado);
     }
+    @Test
+    public void testMultiplicar() {
+        int resultado = Mates.multiplicarStatic(10, 10);
+        assertEquals(100, resultado);
+    }
 }
